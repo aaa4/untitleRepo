@@ -1,0 +1,21 @@
+.side{
+  flex: 0.3;
+  background-color: #d7e2f5;
+  padding: 20px;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  flex: 0.7;
+  background-color: #f5eae7;
+  padding: 20px;
+}
+.div{
+  display: block;
+}
+
+
+
+
+

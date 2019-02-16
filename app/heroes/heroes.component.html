@@ -1,0 +1,32 @@
+
+<h2 class="test">Heroes component header</h2>
+<p>
+  heroes works!
+</p>
+<div class="row">
+    <div class="side" fxLayout="column" fxLayoutGap="32px">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A animi aperiam deleniti, dicta dolores, et illum laboriosam molestiae nihil nobis vel velit?</div>
+    <div class="main" fxLayout="column" fxLayoutGap="32px">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid dolorum ea eum exercitationem fugiat omnis optio qui quis tenetur ullam! Adipisci dolores, eum illo natus neque rerum sit tempore? At minus quam ut?</div>
+    </div>
+<p>id: <span>{{oldHero.id}}</span></p>
+<p>name: <span>{{oldHero.name}}</span></p>
+<div>
+  <label>
+    <input [(ngModel)]="oldHero.id" placeholder="id">
+  </label>
+</div>
+<p>name: <span>{{oldHero.name}}</span></p>
+<div>
+  <label>
+    <input [(ngModel)]="oldHero.name" placeholder="name">
+  </label>
+</div>
+
+<h2>My Heroes</h2>
+<ul>
+    <li *ngFor="let hero of heroes"  >
+      <span>{{hero.id}}</span> : {{hero.name}}
+    </li>
+</ul>
+

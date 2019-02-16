@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display');
+@import url('https://fonts.googleapis.com/css?family=Karla');
+
+body{
+  background-color: red;
+  color: #41cb28;
+}
+h1{
+  font-family: 'Major Mono Display', monospace;
+  color: #0163cb;
+}
+.text{
+  color: #438fcb;
+  font-family: 'Karla', sans-serif;
+}
+
+.content{
+  padding: 20px;
+}
+
+input{
+  margins: 5px;
+}
+

@@ -1,0 +1,15 @@
+<p>
+  greeting works!
+</p>
+<hr>
+<h2>Greeting card</h2>
+<p> id: <span>{{greet.id}}</span></p>
+<p> destination: <span>{{greet.destination}}</span></p>
+<p>text: <span>{{greet.text}}</span></p>
+<hr>
+<div>
+  <label>
+    <input [(ngModel)]="greet.text" placeholder="text">
+  </label>
+</div>
+<hr>
